@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Scrollbar, Pagination } from 'swiper';
 import 'swiper/css/pagination';
@@ -10,7 +10,6 @@ import {
   CurrentSlideNavigation,
   ArrowImage,
   SliderNavigationWrapper,
-  SwiperWrapper,
   AnimatedElement,
   PrevButtonSlider,
   NextButtonSlider,
