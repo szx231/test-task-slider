@@ -1,0 +1,52 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb", "prettier", "plugin:prettier/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "rules": {
+    "react/prop-types": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/function-component-definition": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/require-default-props": "off",
+    "react/jsx-props-no-spreading": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "global-require": "off",
+    "import/prefer-default-export": "off",
+    "spaced-comment": ["error", "always", { "markers": ["/"] }],
+    "lines-between-class-members": "off",
+    "no-async-promise-executor": "off",
+    "no-useless-constructor": "off",
+    "no-empty-function": "off",
+    "no-plusplus": "off",
+    "camelcase": "off",
+    "dot-notation": "off",
+    "no-sequences": "off",
+    "no-return-assign": "off",
+    "no-param-reassign": "off",
+    "import/newline-after-import": "off",
+    "no-await-in-loop": "off",
+    "no-restricted-syntax": "off",
+    "no-continue": "off",
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "error",
+    "react-filename-extension": "off",
+    "react/jsx-filename-extension": "off",
+    "no-use-before-define": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off"
+  }
+}
