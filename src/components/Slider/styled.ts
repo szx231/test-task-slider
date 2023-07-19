@@ -54,14 +54,14 @@ export const MobileTopLine = styled.div`
   display: none;
 
   @media (max-width: 375px) {
-    display: block;
+    display: none;
   }
 `;
 
 export const ArrowImage = styled.div<IArrowImage>`
   width: 10px;
   height: 14px;
-  mask-image: url('/src/assets/arrowGrey.svg');
+  mask-image: url('/assets/arrowGrey.svg');
   mask-repeat: no-repeat;
   mask-position: center center;
   background-color: ${(props) => (props.isDisabled ? 'rgba(66, 86, 122, 0.1);' : 'rgba(66, 86, 122, 0.5);')};
@@ -141,7 +141,7 @@ export const PrevButtonSlider = styled.button`
   box-shadow: 0px 0px 15px rgba(56, 119, 238, 0.1);
   transform: rotate(180deg);
   border-radius: 50%;
-  background-image: url('/arrowBlue.svg');
+  background-image: url('/assets/arrowBlue.svg');
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -161,7 +161,7 @@ export const NextButtonSlider = styled.button`
   background: #ffffff;
   box-shadow: 0px 0px 15px rgba(56, 119, 238, 0.1);
   border-radius: 50%;
-  background-image: url('arrowBlue.svg');
+  background-image: url('/src/assets/arrowBlue.svg');
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
