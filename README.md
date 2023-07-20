@@ -14,6 +14,8 @@
 
 ## Что должно получится: https://lnkd.in/eRAAX9xK
 
+# АДАПТИВ ПОД ДЕСКТОП И ПОД IPHONE SE
+
 # Моя реализация:
 # link: https://lnkd.in/eET2ARQb
 # code: https://lnkd.in/efHHnNQC
